@@ -1,6 +1,6 @@
 body{
     font-family: Helvetica,serif;
-    background-color: #d9d9d9;
+    background-color: #e6e6e6;
 }
 header span{
 	display: flex;
@@ -10,7 +10,7 @@ header span{
 a{
 	text-align: center;
 	padding:25px;
-	background-color:#bfbfbf;
+	background-color:#cccccc;
 	text-decoration: none;
 	font-size: 25px;
 }
@@ -206,7 +206,7 @@ footer span a img{
 	width: 65px;
 }
 footer span a{
-	background-color:#d9d9d9 ;
+	background-color:#e6e6e6 ;
 }
 footer h2{
 	font-size: 25px;
