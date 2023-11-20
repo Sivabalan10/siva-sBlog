@@ -11,13 +11,13 @@ if(el == 2){
 	abt.style.display = "none";
 	blg.style.display = "block";
 	blog_button.style.backgroundColor = "#57A7C0";
-	abt_button.style.backgroundColor = "#bfbfbf";
+	abt_button.style.backgroundColor = "#d9d9d9";
  
 }
 else{
 	abt.style.display = "block";
 	blg.style.display = "none";
-	blog_button.style.backgroundColor = "#bfbfbf";
+	blog_button.style.backgroundColor = "#d9d9d9";
 	abt_button.style.backgroundColor = "#57A7C0";
 	observe();
 }
