@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon"  href="images/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>@Siva's_blog</title>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link> 
+	<script src='https://kit.fontawesome.com/54a2c781b6.js' crossorigin='anonymous'></script> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<header>
+	<div class = "intro">
+	<h1 class = "typewriter">Siva's Blog</h1>
+</div>
+<br>
+	<span>
+		<a onclick="swap_blog(1)" id = "about">About me</a>
+		<a onclick="swap_blog(2)" id = "myblogs">My Blogs</a>
+	</span><br>
+	
+</header>
+<main>
+<div id = "about_me">
+	<div class = "head1">
+		<img src="images/backimg.png">
+	</div>
+	<br><br>
+		<div id="abtcont">
+		<br>
+		<h1>About me</h1>
+		<p>Hey Guys! I'm <b>Sivabalan</b>, driven by an unwavering passion for coding and technology. Every day, I immerse myself in this ever-evolving realm, dedicating my time to continuous learning and growth. My blog serves as a chronicle—a platform where I unveil daily discoveries, insights, and the sheer exhilaration of learning. Join me on this exhilarating journey as I delve into the limitless possibilities of technology, connecting with kindred spirits along the way. Let's forge connections, exchange knowledge, stoke our curiosity, and collectively embark on this enthralling tech odyssey. Together, let's explore, discover, and thrive in the vibrant world of technology. Join me in unraveling the wonders and seizing the boundless opportunities it offers!</p>
+		<br>
+		</div>
+		<br><br>
+		<div id="abtcont">
+		<br>
+		<h1>Reason Why I Started Blogging?</h1>
+		<ul>
+			<li><b><u>Passionate Learning:</u></b> I initiated this blog to document my daily tech and coding explorations, driven by an insatiable thirst for knowledge.</li>
+			<li><b><u>Sharing Insights:</u></b> I aspire to share my daily insights and discoveries in the ever-evolving tech world.</li>
+			<li><b><u>Community Connection:</u></b> This blog serves as a hub for like-minded individuals, fostering a community where we can exchange ideas and discoveries.</li>
+			<li><b><u>Continuous Growth:</u></b> It's a testament to my commitment to continuous learning, where each day brings new opportunities to expand my tech horizon.</li>
+			<li><b><u>Knowledge Exchange:</u></b> I'm dedicated to not only gathering information but also exchanging ideas and learnings with a broader audience.</li>
+			<li><b><u>Joy of Sharing:</u></b> Ultimately, this platform is a celebration of the joy that comes from sharing newfound knowledge and experiences with others.</li>
+		</ul>
+		<br>
+		</div>
+</div>
+
+
+<!-------------------------------------------------------->
+<div id = "my_blogs">
+	<h2>Latest Blog:</h2>
+	<div id = "purpose_card">
+		<h1>Artificial Intelligence</h1>
+		<img src = "images/ai_logo.jpg"><br>
+		<button onclick="location.href = 'Blogs/artificial_intelligence.html';">View blog</button><br>
+		<button onclick="ai()" id = "readmore">Readmore</button><br>
+	</div><br>
+
+
+</div>
+</main>
+<footer>
+	<br><br><br>
+	<div id="Follow">
+	<hr>
+	<h2><i class='fas fa-bell' style='font-size:36px'></i><br>Follow me on</h2>
+	<span>
+		<a href="https://www.instagram.com/s_p_a_r_k_y_siva/"><img src = "images/insta.png" alt="Instagram" ></a>
+		<a href = "https://www.linkedin.com/in/sivabalan10"><img src = "images/linked.png" alt = "Linkedin" ></a>
+	</span>
+	<br>
+	</div>
+	<br>
+</footer>
+	<script src="app.js"></script>
+</body>
+</html>
