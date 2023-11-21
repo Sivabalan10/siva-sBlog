@@ -42,5 +42,9 @@ function observe(){
 
 function ai(){
 	swal({title:"Artificial Intelligence",
-		 text:"This is ....."});
+		 text:`AI is a big deal for the future, and in this blog, I'll cover AI, 
+		 Machine Learning (ML), Deep Learning (DL), which involve cool things like neural networks 
+		 and natural language processing (NLP). I'll share my learning journey as a blog to help you 
+		 understand these concepts better. Additionally, I'll provide real-life projects for each 
+		 concept on my linked page.`});
 }
